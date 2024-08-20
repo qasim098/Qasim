@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Protfolio website</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------
+
+
+   NAVIGATION-SECTION
+ 
+ffb733
+--------*/
+.head-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 64px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    margin-right: 64px;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-image{
+    margin-left: 96px;
+    margin-top: -96px;
+    border-radius: 12px;
+}
+.image-h{
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.headin-g{
+    color: #087f5b;
+}
+.head-link-n{
+    
+    font-size: 20px;
+    margin-top: -5px;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    background-color: #087f5b ;
+    padding: 8px 16px;
+    border-radius: 9px;
+}
+.nav-link:hover{
+       color: #087f5b;
+}
+
+/*--------
+
+
+   HEADER-SECTION
+
+
+--------*/
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.grid-2colon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+.header-text-box{
+   
+    padding: 32px 64px;
+}
+/*.head-part-2{
+    background-color: #fff6e6;
+}*/
+.h-p-1{
+    font-size: 32px;
+    word-spacing: 5px;
+    margin-top: 48px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-left: -5px;
+}
+.h-name{
+    font-size: 42px;
+    color: black;
+    font-weight: 700;
+   
+   
+    margin-top: 10px;
+  
+}
+.n-1{ 
+    color: #087f5b;
+}
+
+.m-h{
+    font-size: 42px;
+    word-spacing: 5px;
+    margin-top: 10px;
+    
+    
+}
+.head-p{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 1.5;
+   
+}
+.head-link{
+    margin-top: 24px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    background-color: #087f5b;
+    
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+.head-link:hover{
+    background-color: #087f5b;
+    box-shadow: 12px 24px 48px rgba(0, 0, 0, 0.07);
+}
+
+.head-link-2{
+    margin-top: 24px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-weight: 600;
+    margin-bottom: 182px;
+    border: 2px solid #087f5b;
+    width: 24%
+}
+.head-link-2:hover{
+    background-color: #087f5b;
+    box-shadow: 12px 24px 48px rgba(0, 0, 0, 0.07);
+}
+.head-icon-p{
+    margin-top: 16px;
+    font-size: 18px;
+    
+}
+.icon-par{
+    color: #5c5c5c;
+}
+.h-icon{
+    height: 24px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+    
+}
+
+/*--------
+
+
+   ABOUT-SECTION
+
+
+--------*/
+.section-about{
+    margin-top: -48px;
+}
+.container-1200{
+    width: 1000px;
+    margin: 0 auto;
+}
+.about-text{
+    margin-left: 64px;
+}
+.h-1{
+    color: #087f5b; 
+    font-weight: 600;
+}
+.about-p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+}
+.about-image-s{
+    margin-top: -64px;
+    margin-left: -32px;
+}
+.about-i{
+    width: 500px;
+}
+.grid-2colon-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 64px;
+}
+.about-heading{
+    color: #087f5b;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.about-s-h{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.about-pargraph{
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.about-mail{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.about-link{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #087f5b;
+}
+.about-icon-1{
+    height: 32px;
+}
+.about-h{
+    margin-top: 16px;
+}
+.about-p-2{
+    margin-top: 20px;
+    margin-bottom: 44px;
+    font-weight: 600;
+}
+.s-s-h{
+    text-align: center;
+    color: #087f5b;
+    font-size: 38px;
+    margin-top: 30px;
+    text-decoration: underline;
+
+}
+.grid-3colon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 96px
+    ;
+   
+}
+.section-services{
+    margin-top: 96px;
+    margin-bottom: 96px;
+    
+}
+
+.b-t-1{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.b-p-1{
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Services-s{
+    margin-bottom: 122px;
+    margin-left: 110px;
+    margin-top: 96px;
+}
+.box-1{
+    margin-left: 32px;
+}
+.box-2{
+    margin-left: 32px;
+}
+.box-3{
+    margin-left: 32px;
+}
+.icon-s{
+    height: 24px;
+    stroke: #087f5b;
+}
+.text-6{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.title{
+    color: black;
+}
+.skill-1{
+    color: black;
+}
+.bar-1{
+    width: 85%;
+}
+.skills-container{
+    color: black;
+}
+.row.col{
+    color: black;
+    flex-basis: 46%;
+}
+.container.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.skills-container{
+    margin-left: 110px;
+    margin-top: 32px;
+}
+.subject{
+    font-size: 18px;
+    font-weight: thin;
+    color: #808080;
+   padding-bottom: 15px;
+   text-transform: uppercase;
+}
+.grid-3colon-2{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin-top: 64px;
+}
+.progress-bar{
+    position: relative;
+    width:100%;
+    height: 5px;
+    background-color: #808080;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.progress-bar::after{
+    position: absolute;
+    content: attr(value);
+    top: -35px;
+    right: 0;
+    color: #808080;
+    font-size: 18px;
+}
+.progress-line{
+    position: absolute;
+    width: 75%;
+    height: 7px;
+    background-color:#087f5b;
+    border-radius: 15px;
+    top: -1px;
+
+}
+.h-s-1{
+    text-align: center;
+    font-size: 36px;
+    color: #087f5b;
+    text-decoration: underline;
+    margin-bottom: -24px;
+}
+.skill-box{
+    margin-bottom: 96px;
+}
+.skil-section{
+    margin-top: 96px;
+}
+.grid-1colon{
+    display: grid;
+    grid-template-columns: 600px 600px ;
+    margin-left: 48;
+}
+.c-s-h{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px ;
+    margin-bottom: 48px;
+    color: #087f5b;
+}
+.contact-box-1{
+    margin-top: 96px;
+    margin-left: -44px;
+
+}
+.head-link-1{
+    margin-top: 96px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-weight: 600;
+    margin-left: -20px;
+}
+.head-link-1:hover{
+    background-color: #087f5b;
+    box-shadow: 12px 24px 48px rgba(0, 0, 0, 0.07);
+
+}
+
+.head-link-3{
+    margin-top: 24px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-weight: 600;
+    margin-bottom: 182px;
+    border: 2px solid #087f5b;
+    width: 20%
+}
+.d-link{
+    margin-left: 24px;
+}
+.head-link-3:hover{
+    background-color: #087f5b;
+    box-shadow: 12px 24px 48px rgba(0, 0, 0, 0.07);
+}
+.about-s-2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 38px;
+    margin-left: 44px;
+   
+}
+.contact-section{
+    margin-top: 48px;
+}
+.about-p-c{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+
+
+.contact-box {
+   
+    background-color: #39997c;
+}
+.container-3{
+    width: 1050px;
+    margin: 0 auto;
+    border-radius: 11px;
+}
+.t-b{
+    margin-bottom: 20px;
+    width: 80%;
+    display: inline-block;
+    height: 18px;
+    margin-left: 20px;
+    border-radius: 9px;
+    padding: 8px 16px;
+    font-size: 20px;
+    border: 1px solid #087f5b;  
+}
+.box-link{
+    margin-top: 16px;
+    display: inline;
+    margin-left: 32px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 9px;
+    width: 15%;
+}
+.contact-section{
+    margin-bottom: 48px;
+}
+.contact-box-2{
+    color: white;
+}
+.h-b-1{
+    font-weight:700 ;
+    margin-left: 44px;
+    line-height: 1.6;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-size: 54px;
+    margin-top: 26px;
+
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 64px;
+   padding: 64px;
+   margin-left: 124px;
+}
+.footer-icon{
+    height: 24px;
+    margin-bottom: 32px;
+    stroke: #087f5b;
+    margin-left: -10px;
+}
+.footer-h{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.footer-t{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.footer-h-2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.footer-t-2{
+    font-size: 18px;
+  
+    font-weight: 500;
+    display: block;
+}
+.head-icon-p-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-text{
+    font-size: 18px;
+}
+.icon-t{
+    margin-top: -60px;
+    margin-left: 30px;
+}
+.Services-footer{
+    margin-left: 24px;
+}
+.icon-sec{
+    margin-left: -20px;
+}
+
+
+
+
+
+</style>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<div id="my-home">  
+<header class="head-1">
+            <h1 class="header-heading-1">Prot<span class="headin-g">folio</span></h1>
+            <ul class="header-nav">
+                <li><a class="nav-link" href="#my-home">Home</a></li>
+                <li><a class="nav-link" href="#about-me" >About</a></li>
+                <li><a  class="nav-link"   href="#my-contact">Contact</a></li>
+                <li><a  class="nav-link" href="#my-skill">Skill</a></li>
+                <li><a   class="head-link-n" href="#my-services">Services</a></li>
+            </ul>
+    </header>
+    <section class="head-part-2">
+    <div class="header-body  container grid-2colon ">
+             <div class="header-text-box">
+                 <p class="h-p-1">Hello There ! <br></p>
+                 <span class="h-name"> I'm <span class="n-1">Muhammad Qasim,</span><br>an Frontend Developer.</span>
+                <p class="head-p">Welcome to my corner of the web! I'm Muhammad Qasim,<br>  a passionate Frontend Developer with a love for development.<br>I'm on a journey to transform ideas into digital experiences and creative solutions.</p>
+              <section>  <p class="head-icon-p">
+                    <span class="icon-par">Follow Me </span>
+                    <ion-icon class="h-icon" name="logo-facebook"></ion-icon>
+                    <ion-icon  class="h-icon" name="logo-instagram"></ion-icon>
+                    <ion-icon  class="h-icon" name="logo-twitter"></ion-icon>
+                    <ion-icon  class="h-icon" name="logo-linkedin"></ion-icon>
+                </p></section>
+                <a  class="head-link" href="#my-contact">contact Me</a>
+                
+                <a class="head-link-2" href="#">Download CV</a>
+             </div>
+             <div  class="header-image-box">
+                
+                <figure class="header-image"><img class="image-h" src="850477fed08bfe98598082bcd309ce70.gif" alt="" width="500px"></figure>
+             </div>
+        </div>
+    </section>
+  </div> 
+    <div id="about-me">
+      
+    <section class="section-about">
+        <p class="about-p"><span class="h-1">ABOUT</span> ME</p>
+                 <div class="about-s container-1200 grid-2colon-2">
+                    <div class="about-image">
+                        <figure class="about-image-s"><img  class="about-i" src="4f2a0c567410d325b893b46039859bbb.jpg" alt=""></figure>
+                    </div>
+                    <div class="about-text">
+                     <h2 class="about-heading">Muhammad  Qasim</h2>
+                     <p class="about-s-h">An Frontend Developer</p>
+                     <p class="about-pargraph" > I'm on a journey to transform ideas into digital experiences and creative solutions.
+                      From a young age, I've been drawn to the world of Development, captivated by its endless possibilities and potential to make a positive impact. What began as a curiosity evolved into a lifelong pursuit of excellence in Frontend Development.</p>
+                     <p class="about-mail">Email Me</p>
+                     <a class="about-link" href="#">qasimwaheed987@gmail.com</a>
+                     <H3 class="about-h">SKILL</H3>
+                     <p class="about-p-2">HTML | CSS | JAVASCRIPT | REACT</p>
+                   
+                     </span>
+
+
+                    </div>
+                 </div>
+    </section>
+  </div>
+  <div id="my-services">
+    <section class="Services-s">
+      <p class="about-p"><span class="h-1">Services</span></p>
+        <div class="section-services container grid-3colon ">
+           
+            <div class="box-1"> 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-s">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+              </svg>
+              
+              <h2 class="b-t-1">UI/UX Design</h2>
+              <p class="b-p-1" >In the realm of UI/UX design, I focus on creating visually engaging and user-friendly interfaces that not only meet but exceed user expectations</p>
+            </div>
+            <div  class="box-2"> 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-s">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+              </svg>
+              
+                <h2 class="b-t-1">App Development</h2>
+                <p class="b-p-1" >I design and develop apps with scalability in mind. Whether it's a simple utility or a complex platform, the code is optimized for performance.</p>
+            </div>
+            <div  class="box-3"> 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-s">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+              </svg>
+              
+                <h2 class="b-t-1">Web Development </h2>
+                <p class="b-p-1" >I develop websites that are responsive and compatible with various devices and browsers, delivering a consistent experience to all users. and improved user engagement</p>
+            </div>
+
+
+        </div>
+    </section>
+  </div>
+  <div id="my-skill">
+    <section class="skil-section">
+      <p class="about-s-2"><span class="h-1">Skill</span> </p>
+        <div class="skill-box container grid-3colon-2">
+      
+    
+                        <div class="skills-container">
+                          <div class="skill">
+                          <div class="subject">HTML</div>
+                          <div class="progress-bar" value="90%">
+                            <div class="progress-line" style="max-width: 94% ;"></div>
+                          </div>
+                        </div>
+                        <div class="skill">
+                          <div class="subject">CSS</div>
+                          <div class="progress-bar" value="80%">
+                            <div class="progress-line" style="max-width: 80% ;"></div>
+                          </div>
+                        </div>
+                        <div class="skill">
+                          <div class="subject">Javascript</div>
+                          <div class="progress-bar" value="60%">
+                            <div class="progress-line" style="max-width: 60% ;"></div>
+                          </div>
+                        </div>
+           </div>
+                 <div>
+                    <div  class="row">
+                        <section class="col">
+                              <div class="sub-title">
+                                <h3></h3>
+                              </div>
+              
+                              <div class="skills-container">
+                                <div class="skill">
+                                <div class="subject">Bootstrap</div>
+                                <div class="progress-bar" value="90%">
+                                  <div class="progress-line" style="max-width: 94% ;"></div>
+                                </div>
+                              </div>
+                              <div class="skill">
+                                <div class="subject">Figma</div>
+                                <div class="progress-bar" value="80%">
+                                  <div class="progress-line" style="max-width: 80% ;"></div>
+                                </div>
+                              </div>
+                              <div class="skill">
+                                <div class="subject">React</div>
+                                <div class="progress-bar" value="60%">
+                                  <div class="progress-line" style="max-width: 60% ;"></div>
+                                </div>
+                              </div> 
+             </div>  
+           
+        </div>
+    </section>
+  </div>
+  <div id="my-contact">
+    <section class="contact-section">
+      <p class="about-p-c"><span class="h-1">Contact</span> ME</p>
+        <div class="contact-box container-3 grid-1colon">
+          <div class="contact-box-2">
+           <h2 class="h-b-1"> Intrested <br>Working<br>With me?</h2>
+          </div>
+              <div class="contact-box-1">
+                <a  class="head-link-1" href="#my-contact">Send Mail</a>
+                <span class="d-link">
+                <a class="head-link-3" href="#">Download CV</a>
+              </span>
+              </div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="section-footer">
+      <div class="footer container  footer-grid">
+              <div>
+                <h1 class="header-heading-1">Prot<span class="headin-g">folio</span></h1>
+                      <section>  <p class="head-icon-p-2">
+                      
+                        <ion-icon class="h-icon" name="logo-facebook"></ion-icon>
+                        <ion-icon  class="h-icon" name="logo-instagram"></ion-icon>
+                        <ion-icon  class="h-icon" name="logo-twitter"></ion-icon>
+                        <ion-icon  class="h-icon" name="logo-linkedin"></ion-icon>
+                    </p></section>
+                      <p class="footer-text">Welcome to my corner of the web! I'm Muhammad Qasim, a passionate Frontend Developer with a love for development.
+                      
+
+                      </p>
+              </div>
+              <div class="Services-footer">
+                <p class="footer-h" >Services</p>
+                <p class="footer-t">UI/UX </p>
+                <P  class="footer-t">App Development</P>
+                <p  class="footer-t">Web Development</p>
+                <p  class="footer-t">Web Design</p>
+              </div>
+              <div>
+                <p class="footer-h-2">Quick Link</p>
+                <a  class="footer-t-2"  href="#my-home">Home</a><br>
+                <a  class="footer-t-2"  href="#about-me">About</a><br>
+                <a class="footer-t-2"  href="#my-services">Services</a><br>
+                <a  class="footer-t-2"  href="#my-contact">Contact Me</a>
+              </div>
+              <div class="icon-sec">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+                  <p class="icon-t">Lahore,Pakisatan</p>
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  class="footer-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+                <p  class="icon-t">qasimwaheed987@gmail.com</p>
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0l-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                </svg>
+                <p class="icon-t">03240442269</p>
+                
+                
+                
+                
+              </div>
+      </div>
+    </section>
+  </div>
+    
+</body>
+</html>
